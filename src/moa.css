@@ -1,0 +1,373 @@
+@font-face {
+    font-family: "moa";
+    src: url(./moa.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.fmoa {
+    font-family: "moa" !important;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fmoa-angle-right-b:before {
+    content: "\E60A";
+}
+.fmoa-angle-left-b:before {
+    content: "\E609";
+}
+.fmoa-angle-down-b:before{
+    content:"\E60C";
+}
+.fmoa-angle-up-b:before{
+    content:"\E60D";
+}
+.fmoa-angle-right:before {
+    content: "\E62E";
+}
+.fmoa-angle-left:before {
+    content: "\E62C";
+}
+.fmoa-angle-down:before{
+    content:"\E723";
+}
+.fmoa-plus:before{
+    content:"\E6ED";
+}
+.fmoa-delet:before{
+    content:"\E709";
+}
+.fmoa-my:before {
+    content: "\E6D3";
+}
+.fmoa-search:before{
+    content:"\E665";
+}
+.fmoa-discovery:before{
+    content:"\E711";
+}
+.fmoa-customer:before{
+    content:"\E712";
+}
+.fmoa-home:before{
+    content:"\E6FA";
+}
+.fmoa-home-thin:before{
+    content:"\E713";
+}
+.fmoa-information:before{
+    content:"\E714";
+}
+.fmoa-product:before{
+    content:"\E6DD";
+}
+.fmoa-introduce:before{
+    content:"\E715";
+}
+.fmoa-mail:before{
+    content:"\E6F3";
+}
+.fmoa-mail-o:before{
+    content:"\E706";
+}
+.fmoa-phone:before{
+    content:"\E6E4";
+}
+.fmoa-sms:before{
+    content:"\E6EE";
+}
+.fmoa-gold:before{
+    content:"\E6E1";
+}
+.fmoa-silver:before{
+    content:"\E6E2";
+}
+.fmoa-diamond:before{
+    content:"\E6E3";
+}
+.fmoa-greeting-card:before{
+    content:"\E708";
+}
+.fmoa-short-message:before{
+    content:"\E707";
+}
+.fmoa-edit{
+    content:"\E6EF";
+}
+.fmoa-five-angle:before{
+    content:"\E669";
+}
+.fmoa-five-angle-half:before{
+    content:"\E66A";
+}
+.fmoa-five-angle-o:before{
+    content:"\E66B";
+}
+.fmoa-heart:before{
+    content:"\E64C";
+}
+.fmoa-heart-o:before{
+    content:"\E64D";
+}
+.fmoa-ellipsis-h:before{
+    content:"\E656";
+}
+.fmoa-ellipsis-h-O:before{
+    content:"\E6D9";
+}
+.fmoa-qrcode:before{
+    content:"\E70C";
+}
+.fmoa-female-sex:before{
+    content:"\E6F0";
+}
+.fmoa-male-sex:before{
+    content:"\E6BA";
+}
+.fmoa-advisor:before{
+    content:"\E6BA";
+}
+.fmoa-unlock:before{
+    content:"\E638";
+}
+.fmoa-lock:before{
+    content:"\E637";
+}
+.fmoa-touch:before{
+    content:"\E70D";
+}
+.fmoa-fire-circle:before{
+    content:"\E716";
+}
+.fmoa-add-user-circle:before{
+    content:"\E717";
+}
+.fmoa-group:before{
+    content:"\E718";
+}
+.fmoa-danger:before{
+    content:"\E719";
+}
+.fmoa-check-user:before{
+    content:"\E71A";
+}
+.fmoa-star-circle:before{
+    content:"\E71B";
+}
+.fmoa-bell-circle:before{
+    content:"\E71C";
+}
+.fmoa-bugle-circle:before{
+    content:"\E71D";
+}
+.fmoa-information-circle:before{
+    content:"\E71E";
+}
+.fmoa-star-fat:before{
+    content:"\E71F";
+}
+.fmoa-hot:before{
+    content:"\E720";
+}
+.fmoa-new:before{
+    content:"\E721";
+}
+.fmoa-phone-circle:before{
+    content:"\E722";
+}
+
+.fmoa-file:before{
+    content:"\E724";
+}
+.fmoa-arrow-down-circle:before{
+    content:"\E725";
+}
+.fmoa-clock-circle:before{
+    content:"\E726";
+}
+.fmoa-dot-circle:before{
+    content:"\E727";
+}
+.fmoa-lightning:before{
+    content:"\E728";
+}
+.fmoa-money-rolloff:before{
+    content:"\E729";
+}
+.fmoa-clock:before{
+    content:"\E72A";
+}
+.fmoa-customer-service:before{
+    content:"\E72B";
+}
+.fmoa-card:before{
+    content:"\E72C";
+}
+.fmoa-help-center:before{
+    content:"\E72D";
+}
+.fmoa-question:before{
+    content:"\E72E";
+}
+.fmoa-finance:before{
+    content:"\E72F";
+}
+.fmoa-asset-history:before{
+    content:"\E730";
+}
+.fmoa-chart-circle:before{
+    content:"\E731";
+}
+.fmoa-suitcase:before{
+    content:"\E732";
+}
+.fmoa-pie-chart:before{
+    content:"\E733";
+}
+.fmoa-comments:before{
+    content:"\E734";
+}
+.fmoa-globe:before{
+    content:"\E735";
+}
+.fmoa-k-line:before{
+    content:"\E736";
+}
+.fmoa-line-chart-square:before{
+    content:"\E737";
+}
+.fmoa-line-chart-circle:before{
+    content:"\E738";
+}
+.fmoa-pen-circle:before{
+    content:"\E739";
+}
+.fmoa-ask:before{
+    content:"\E73A";
+}
+.fmoa-database:before{
+    content:"\E73B";
+}
+.fmoa-box:before{
+    content:"\E73C";
+}
+.fmoa-flag:before{
+    content:"\E73D";
+}
+.fmoa-trend:before{
+    content:"\E73E";
+}
+.fmoa-comment-circle:before{
+    content:"\E73F";
+}
+.fmoa-check-circle:before{
+    content:"\E740";
+}
+.fmoa-uptrend-circle:before{
+    content:"\E741";
+}
+.fmoa-group-man:before{
+    content:"\E742";
+}
+.fmoa-add-user:before{
+    content:"\E744";
+}
+.fmoa-calendar-circle:before{
+    content:"\E745";
+}
+.fmoa-user-circle:before{
+    content:"\E746";
+}
+.fmoa-cake:before{
+    content:"\E747";
+}
+.fmoa-close-circle:before{
+    content:"\E748";
+}
+.fmoa-close-circle-b:before{
+    content:"\E6D6";
+}
+.fmoa-share:before{
+    content:"\E749";
+}
+.fmoa-weixin:before{
+    content:"\E74A";
+}
+.fmoa-pyq:before{
+    content:"\E74B";
+}
+.fmoa-trophy:before{
+    content:"\E74C";
+}
+.fmoa-download-alt:before{
+    content:"\E74D";
+}
+.fmoa-rmb:before{
+    content:"\E74E";
+}
+.fmoa-phone-copy:before{
+    content:"\E74F";
+}
+.fmoa-h:before{
+    content:"\E751";
+}
+.fmoa-s:before{
+    content:"\E752";
+}
+.fmoa-note-o:before{
+    content:"\E6FE";
+}
+.fmoa-note:before{
+    content:"\E6FF";
+}
+.fmoa-peoplelist:before{
+    content:"\E701";
+}
+.fmoa-app-o:before{
+    content:"\E702";
+}
+.fmoa-app:before{
+    content:"\E703";
+}
+.fmoa-sort-down:before{
+    content:"\E753";
+}
+.fmoa-sort-up:before{
+    content:"\E754";
+}
+.fmoa-filter:before{
+    content:"\E755";
+}
+.fmoa-tag:before{
+    content:"\E6DB";
+}        
+.fmoa-check:before{
+    content:"\E756";
+}
+.fmoa-otc:before{
+    content:"\E757";
+} 
+.fmoa-expup-circle:before{
+    content:"\E758";
+}
+.fmoa-mobile:before{
+    content:"\E759";
+}
+.fmoa-applies-circle:before{
+    content:"\E760";
+} 
+.fmoa-trend-circle:before{
+    content:"\E761";
+} 
+.fmoa-new2:before{
+    content:"\E762";
+} 
+.fmoa-asterisk:before{
+    content:"\E763";
+} 
+.fmoa-discovery-o:before{
+    content:"\E764";
+} 
